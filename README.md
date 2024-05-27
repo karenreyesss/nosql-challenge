@@ -19,6 +19,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
+```json
 {
     "BusinessName": "Penang Flavours",
     "BusinessType": "Restaurant/Cafe/Canteen",
@@ -47,6 +48,8 @@ An exciting new halal restaurant just opened in Greenwich, but hasn't been rated
     "Distance": 4623.9723280747176,
     "NewRatingPending": true
 }
+```
+
 
 
 Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
